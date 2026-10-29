@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:simpleType name="isbnType">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="ISBN-[0-9]{2}-[0-9]{4}"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="bibliotheque">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="livre">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="titre" type="xs:string"/>
+              <xs:element name="auteur" type="xs:string"/>
+              <xs:element name="annee" type="xs:int"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

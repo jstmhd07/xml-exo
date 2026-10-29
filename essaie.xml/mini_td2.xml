@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<facture numero="FA-2026-0042" devise="EUR">
+    <date_emission>2026-10-05</date_emission>
+    <date_echeance>2026-11-04</date_echeance>
+
+    <vendeur>Teranga Informatique</vendeur>
+    <client>Pressing dieuf-dieul et fils</client>
+
+    <lignes>
+        <ligne numero="1">
+            <designation>Clé USB 64 Go</designation>
+            <quantite>2</quantite>
+            <prix_unitaire>8.50</prix_unitaire>
+        </ligne>
+
+        <ligne numero="2">
+            <designation>Câble HDMI (longueur = 2 m)</designation>
+            <quantite>1</quantite>
+            <prix_unitaire>12.00</prix_unitaire>
+        </ligne>
+    </lignes>
+
+    <note><![CDATA[voir <https://exemple.sn/cgv> & mentions]]></note>
+</facture>

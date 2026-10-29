@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bibliotheque>
+    <livres>
+        <livre>
+            <titre>moi au moins</titre>
+            <auteur>amet top</auteur>
+            <annee_publication>1995</annee_publication>
+            <genre>poetique</genre>
+        </livre>
+        <livre>
+             <livre>
+            <titre>la veuve et l'opprimer</titre>
+            <auteur>amet top</auteur>
+            <annee_publication>1995</annee_publication>
+            <genre>poetique</genre>
+        </livre>
+        </livre>
+    </livres>
+</bibliotheque>

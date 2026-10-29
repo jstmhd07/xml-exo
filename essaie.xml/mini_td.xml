@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<facture numero="FA-2026-0042">
+
+    <informations>
+        <devise>EUR</devise>
+        <date_emission>2026-10-05</date_emission>
+        <date_echeance>2026-11-04</date_echeance>
+    </informations>
+
+    <vendeur>
+        <nom>Teranga informatique</nom>
+        <contact>Vendeur</contact>
+        <adresse>Dakar, Senegal</adresse>
+    </vendeur>
+
+    <client>
+        <nom>pressing dieuf-dieul et fils</nom>
+        <contact>Client</contact>
+        <adresse>Dakar, Senegal</adresse>
+    </client>
+
+    <articles>
+        <article>
+            <designation>cle usb</designation>
+            <quantite>2</quantite>
+            <prix_unitaire>8.50</prix_unitaire>
+            <montant>17.00</montant>
+        </article>
+        <article>
+            <designation>cable HDMI</designation>
+            <quantite>1</quantite>
+            <prix_unitaire>12.00</prix_unitaire>
+            <montant>12.00</montant>
+        </article>
+    </articles>
+
+    <total devise="EUR">29.00</total>
+
+    <paiement>
+        <mode>Carte</mode>
+        <statut>En attente</statut>
+    </paiement>
+
+</facture>

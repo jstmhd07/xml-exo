@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- [Votre Matricule] — Mouhamed [Votre Nom] -->
+<promotion annee="2026-2027" filiere="Informatique">
+    <etudiant matricule="L1-001">
+        <nom>Fall</nom>
+        <prenom>Awa</prenom>
+        <notes>
+            <note module="M1" coef="2">14.5</note>
+            <note module="M2" coef="3">12</note>
+        </notes>
+    </etudiant>
+    <etudiant matricule="L1-002">
+        <nom>Ndiaye</nom>
+        <prenom>Mamadou</prenom>
+        <notes>
+            <note module="M1" coef="2">9.75</note>
+        </notes>
+    </etudiant>
+    <etudiant matricule="L1-003">
+        <nom>Sow</nom>
+        <prenom>Fatou</prenom>
+        <notes/>
+    </etudiant>
+</promotion>
